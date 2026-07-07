@@ -1,0 +1,685 @@
+/* 
+ Theme Name:     Divi-hvac-child-theme
+ Author:         Mark Hendriksen
+ Author URI:     https://markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+ Description:    A Divi Child Theme 
+*/ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+/* #####  CHANGE COLORS ##### */
+
+/* ### H2, H3 ### */
+
+h2 {
+	font-size: 60px;
+    color: #121212;
+}
+
+h3 {
+	font-size: 26px;
+    color: #121212;
+}
+
+
+
+
+/* ##### TRIANGLE LEFT ##### */
+
+@media (min-width: 981px) {
+.triangle_row .triangle_left {
+	background-image: linear-gradient(45deg,#000000 46%,rgba(41,196,169,0) 0%);
+}
+}
+
+@media (max-width: 980px) {
+	.triangle_row .triangle_left {
+	background-image: linear-gradient(45deg,#000000 36%,rgba(41,196,169,0) 0%);
+		margin-top:40px;
+}
+}
+
+/* ##### TRIANGLE RIGHT ##### */
+
+
+@media (min-width: 981px) {
+.triangle_row .triangle_right {
+    background-image: linear-gradient(225deg,#efc903 46%,rgba(41,196,169,0) 0%);
+}
+}
+	
+@media (max-width: 980px) {
+	.triangle_row .triangle_right {
+    background-image: linear-gradient(225deg,#efc903 36%,rgba(41,196,169,0) 0%);
+	margin-top:40px;
+}
+}
+
+
+/* ##### TRIANGLE LEFT AND RIGHT MAP ##### */
+
+.triangle_contact .triangle_left {
+	background-image: linear-gradient(45deg,#efc903 46%,rgba(41,196,169,0) 0%);
+}
+
+.triangle_contact .triangle_right {
+	background-image: linear-gradient(225deg,#000000 46%,rgba(41,196,169,0) 0%);
+}
+
+/* ##### BLOG BACKGROUND ##### */
+
+.blog_home .et_pb_post {
+	background-color: #f5f5f5;
+}
+
+/* ##### BLOG BUTTON ##### */
+
+.blog_home .more-link {
+	background-color: #c60505;
+    color: #fff !important;
+}
+
+/* ##### PROJECT OVERLAY COLOT ##### */
+
+.project_row .et_pb_column:before  {
+    background-color: rgba(0,0,0,0.35);
+} 
+
+/* ##### SIDEBAR WIDGET BG AND TITLE COLOR ##### */
+
+.et_pb_widget h4.widgettitle {
+	background-color: #c60505;
+    color: #fff;
+}
+
+/* ##### SIDEBAR WIDGET BG COLOR ##### */
+.et_pb_widget ul {
+	background-color: #f5f5f5;
+}
+
+/* #####  END CHANGE COLORS ##### */
+
+/* ###  TOP HEADER FIXED ### */
+/*
+#page-container {
+	margin-top: 185px !important;
+}
+*/
+
+/* ###  GENERAL ### */
+
+#main-header {
+	display: none;
+}
+
+#page-container {
+	padding-top: 0px !important;
+}
+
+#page-container {
+	overflow-x: hidden;
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1200px) {
+.custom_row_95,
+.custom_row_95_special .et_pb_row {
+	width: 95%;
+	max-width: 95%;
+}}
+
+/* ###  TOP HEADER ### */
+
+.custom_logo {
+	padding: 10px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1650px) {
+.phone_header {
+	width: 27.875% !important;	
+}
+
+.custom_top_bar .et_pb_column {
+	margin-right: 2.5% !important; 
+}}
+
+@media only screen and (min-width: 1101px) and (max-width: 1600px) {
+.custom_top_bar .et_pb_blurb .et_pb_module_header {
+    padding-top: 20px !important;
+}}
+
+@media only screen and (min-width: 981px) and (max-width: 1100px) {
+.custom_logo {
+	padding: 10px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+.custom_top_bar .et_pb_blurb .et_pb_module_header {
+    padding-top: 10px !important;
+}}
+
+
+
+/* ###  ### */
+
+
+/* ###### DROPDOWN ###### */
+
+
+/* ##### PROMOTION TRIANGLE ##### */ 
+
+.et_pb_text.promotion_triangle {
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    right: -107px;
+    top: -29px;
+    height: 120px;
+    width: 300px!important;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(40deg);
+    padding-bottom: 15px;
+}
+
+.promotion_triangle .discount_text {
+	font-size: 14px !important;
+	margin-bottom: -5px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 479px) {
+.et_pb_text.promotion_triangle {
+	right: -70px !important;
+    top: -14px !important;
+    height: 80px !important;
+    width: 200px !important;
+	font-size: 22px !important;
+	padding-bottom: 5px !important;
+}
+
+.promotion_triangle .discount_text {
+	font-size: 11px !important;
+	margin-bottom: -10px;
+	display: inline-block;
+}}
+
+@media only screen and (min-width: 981px) and (max-width: 1500px) {
+.et_pb_text.promotion_triangle {
+	right: -70px !important;
+    top: -14px !important;
+    height: 80px !important;
+    width: 200px !important;
+	font-size: 22px !important;
+	padding-bottom: 5px !important;
+}
+
+.promotion_triangle .discount_text {
+	font-size: 11px !important;
+	margin-bottom: -10px;
+	display: inline-block;
+}}
+
+/* ##### CONTACT FORM TRIANGLE ##### */ 
+
+.et_pb_text.contact_triangle {
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    right: -132px;
+    top: -48px;
+    height: 120px;
+    width: 300px!important;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(40deg);
+    padding-bottom: 5px;
+}
+
+.contact_triangle .service_text {
+	font-size: 14px !important;
+	margin-bottom: -5px;
+    display: block;
+}
+
+.contact_banner_title {
+	display: block;
+    margin-bottom: -4px;
+}
+
+.blurb_contact .et_pb_blurb_container {
+    padding-left: 5px !important;
+}
+
+.blurb_contact.et_pb_blurb .et_pb_main_blurb_image {
+    width: 107px !important;
+}
+
+.blurb_contact.et_pb_blurb .et_pb_module_header {
+    margin-top: 28px;
+}
+
+@media only screen and (max-width: 479px) {
+.et_pb_text.contact_triangle {
+	right: -70px !important;
+    top: -14px !important;
+    height: 80px !important;
+    width: 200px !important;
+	font-size: 22px !important;
+	padding-bottom: 5px !important;
+}
+	
+.promotion_contact .service_text {
+	font-size: 11px !important;
+	margin-bottom: -10px;
+	display: inline-block;
+}
+
+.blurb_contact.et_pb_blurb .et_pb_main_blurb_image {
+    width: 80px !important;
+}
+
+.blurb_contact.et_pb_blurb .et_pb_module_header {
+    margin-top: 6px;
+}}
+
+@media only screen and (min-width: 981px) and (max-width: 1500px) {
+.blurb_contact.et_pb_blurb .et_pb_main_blurb_image {
+    width: 80px !important;
+}
+
+.blurb_contact.et_pb_blurb h4 {
+	font-size: 20px!important;	
+}
+
+.blurb_contact.et_pb_blurb .et_pb_module_header {
+    margin-top: 15px;
+}}
+
+@media only screen and (min-width: 981px) and (max-width: 1500px) {
+.et_pb_text.contact_triangle {
+	right: -70px !important;
+    top: -14px !important;
+    height: 80px !important;
+    width: 200px !important;
+	font-size: 22px !important;
+	padding-bottom: 5px !important;
+}
+
+.promotion_contact .service_text {
+	font-size: 11px !important;
+	margin-bottom: -10px;
+	display: inline-block;
+}}
+
+
+/* ##### TRIANGLE CONTACT HOME ##### */
+
+.blurb_contact_home.et_pb_blurb .et_pb_main_blurb_image {
+    width: 80px !important;
+}
+
+.blurb_contact_home.et_pb_blurb .et_pb_module_header {
+    margin-top: 20px;
+}
+
+/* ##### TRIANGLE LEFT ##### */
+
+.triangle_row .triangle_left {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+/* ##### TRIANGLE RIGHT ##### */
+
+.triangle_row .triangle_right {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+/* ##### TRIANGLE LEFT AND RIGHT MAP ##### */
+
+.triangle_contact .triangle_left {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+.triangle_contact .triangle_right {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+
+/* ##### HOME PAGE ##### */
+
+/* ###  CONTACT BUTTON HOME PAGE ### */
+
+.contact_home .et_contact_bottom_container {
+	width: 100%;		
+}
+
+.contact_home .et_pb_contact_submit {
+	width: 97%;	
+}
+
+.contact_home .et_pb_contact_submit {
+    margin: 0 0 0 13px;
+}
+
+.contact_home .et_pb_button:hover, .contact_home .et_pb_module .et_pb_button:hover {
+	padding: .3em 1em !important;
+}
+
+/* ##### CHOOSE US SECTION HOME PAGE ##### */
+
+@media only screen and (min-width: 981px) and (max-width: 1200px) {
+.home_choose_row {
+	padding-bottom: 175px !important;
+}}
+
+/* ##### TESTIMONIAL SECTION HOME PAGE ##### */
+
+@media only screen and (min-width: 981px) and (max-width: 1200px) {
+.home_customer_title h2 {
+	font-size: 50px !important;
+}}
+
+/* ##### CONTACT SECTION HOME PAGE ##### */
+
+@media only screen and (min-width: 981px) and (max-width: 1500px) {
+.contact_home_column_1 {
+	padding-left: 50px !important;
+}}
+
+
+/* ##### BLOG HOME PAGE ##### */
+
+.blog_home .more-link {
+    padding: 2px 15px 2px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* ##### DISCOUNT HOME PAGE ##### */
+
+@media only screen and (min-width: 981px) and (max-width: 1350px) {
+.discount_title {
+	font-size: 48px !important;
+}}
+
+/* ##### SINGLE BLOG PAGE ##### */
+.single-post .custom_top_bar .et_pb_row,
+.single-post .et_pb_row {
+    width: 100% !important;
+}
+
+
+/* ##### PROJECTS PAGE ##### */
+
+@media only screen and (max-width: 479px) {
+.project_row .button_project {
+	position: absolute;
+	left: 35px;
+	bottom: 23px;
+}}
+
+@media only screen and (min-width: 480px) {
+.project_row .button_project {
+	position: absolute;
+	right: 35px;
+	bottom: 23px;
+}}
+
+@media only screen and (min-width: 981px) and (max-width: 1400px) {
+.project_row .button_project {
+	position: absolute;
+	left: 35px;
+	right: unset;
+	bottom: 23px;
+}
+
+.project_row .et_pb_text {
+	padding-bottom: 60px !important;
+	padding-right: 35px !important;
+}}
+
+
+.project_row .et_pb_column:before  {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .2s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out !important;
+    transition: all .2s ease-in-out !important;
+} 
+
+.project_row .et_pb_column:hover:before  {
+    background-color: rgba(0,0,0,0);
+    -webkit-transition: all .2s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out !important;
+    transition: all .2s ease-in-out !important;
+} 
+
+/* ##### COUPON PAGE ##### */
+
+@media only screen and (min-width: 981px) and (max-width: 1100px) {
+.discount_page .discount_title {
+	font-size: 40px !important;
+}
+
+.discount_page h3 {	
+	font-size: 24px !important;
+}}
+
+/* ##### SIDEBAR ##### */
+.et_pb_widget h4.widgettitle {
+    padding: 10px 20px;
+}
+
+.et_pb_widget ul {
+	padding: 20px 20px 10px 20px !important;
+}
+
+/* ##### CTA FIXED ##### */
+
+.cta_fixed_section {
+	position:fixed;
+	top: 40%;
+	right:0px;
+	z-index:9999999 !important;
+	transition: 0.5s ease-out;
+	transform: translateX(285px);
+}
+
+.cta_fixed_section:hover {
+	transform: translateX(0px);
+}
+
+@media only screen and (min-width: 981px) {
+.home_map, 
+.home_map .et_pb_map {
+	height: 100% !important;
+}}
+
+
+/* ###### SEARCH RESULT PAGE ###### */
+
+@media (min-width: 981px) {
+.search #left-area {
+	width: 64.833%;
+}
+
+.search #sidebar {
+	width: 29.666%;
+	border-left: 1px solid #e2e2e2;
+}
+
+.search #main-content .container:before {
+    display: none !important;
+}}
+
+.search .et_pb_post a img {
+    padding-bottom: 25px;
+}
+
+.search h2 {
+	font-size: 30px;
+	font-weight: bold;
+}	
+
+/* ###### CATEGORY RESULT PAGE ###### */
+
+@media (min-width: 981px) {
+.category #left-area {
+	width: 64.833%;
+}
+
+.category #sidebar {
+	width: 29.666%;
+	border-left: 1px solid #e2e2e2;
+}
+
+.category #main-content .container:before {
+    display: none !important;
+}}
+
+.category .et_pb_post a img {
+    padding-bottom: 25px;
+}
+
+.category h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#search-header {
+	display: none;
+}
+
+.search #search-header {
+	display:block;
+}
+
+#category-header {
+	display: none;
+}
+
+.category #category-header {
+	display:block;
+}
+
+#archive-header {
+	display: none;
+}
+
+.archive.category #archive-header {
+	display: none;
+}
+
+.archive #archive-header {
+	display: block;
+}
+
+/* ###### ARCHIVE PAGE ###### */
+
+@media (min-width: 981px) {
+.archive #left-area {
+	width: 64.833%;
+}
+
+.archive #sidebar {
+	width: 29.666%;
+	border-left: 1px solid #e2e2e2;
+}
+
+.archive #main-content .container:before {
+    display: none !important;
+}}
+
+.archive .et_pb_post a img {
+    padding-bottom: 25px;
+}
+
+.archive h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* ###  HIDE IN VISUAL BUILDER ### */
+/*
+.et-fb .custom_top_bar,
+.et-fb .custom_footer {
+	display: none !important;
+}
+*/
+.et-fb .cta_fixed_section {
+	display:none;
+}
+
+
+.et-fb .triangle_section,
+.et-fb .triangle_row,
+.et-fb .triangle_module,
+.et-fb .promotion_triangle,
+.et-fb .contact_triangle {
+	display:none;
+}
+
+/* ### DIVI 4.0+ FIX ### */
+
+
+.home_services .et_pb_column_1_4 {
+	border:2px solid #fff !important;
+}
+
+@media only screen and (min-width: 981px) {
+.home_project_1,
+.home_project_2,
+.home_project_3,
+.home_project_4 {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+
+.home_project_1,
+.home_project_2 {
+	border-bottom: 2px solid #fff;
+}
+
+.home_project_2,
+.home_project_4 {
+	border-right: 4px solid #fff;
+}}
+
+@media only screen and (max-width: 980px) {
+.home_project_1,
+.home_project_2,
+.home_project_3,
+.home_project_4 {
+	border-bottom: 4px solid #fff;
+}}
