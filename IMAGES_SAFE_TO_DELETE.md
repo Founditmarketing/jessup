@@ -1,0 +1,92 @@
+# Images safe to delete once new versions are approved
+
+This repo now serves optimized companions for the images below. The originals are still in the repo so a rollback is a one-line find+replace. Once Owen confirms the new versions look right on the live site, delete the originals in the left column.
+
+| Original (delete) | Optimized (in use) | Old size | New size | Saved |
+|---|---|---|---|---|
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.38.49-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.38.49-PM.opt.jpg` | 4316 KB | 514 KB | 3802 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.39.05-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.39.05-PM.opt.jpg` | 4025 KB | 474 KB | 3551 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.38.54-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.38.54-PM.opt.jpg` | 3973 KB | 434 KB | 3538 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.48.38-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.48.38-PM.opt.jpg` | 4078 KB | 604 KB | 3474 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.40-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.40-PM.opt.jpg` | 3892 KB | 455 KB | 3438 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.48.44-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.48.44-PM.opt.jpg` | 3831 KB | 544 KB | 3287 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.51.09-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.51.09-PM.opt.jpg` | 3598 KB | 414 KB | 3184 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.49.16-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.49.16-PM.opt.jpg` | 3478 KB | 401 KB | 3077 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.36-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.36-PM.opt.jpg` | 3452 KB | 414 KB | 3038 KB |
+| `wp-content/uploads/2025/07/Jessup-Construction-2.png` | `wp-content/uploads/2025/07/Jessup-Construction-2.opt.jpg` | 3272 KB | 275 KB | 2996 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.50.46-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.50.46-PM.opt.jpg` | 3151 KB | 300 KB | 2851 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.48-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.48-PM.opt.jpg` | 2823 KB | 272 KB | 2551 KB |
+| `wp-content/uploads/2025/07/Jessup-Construction-3.png` | `wp-content/uploads/2025/07/Jessup-Construction-3.opt.jpg` | 2695 KB | 161 KB | 2534 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.44-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.44-PM.opt.jpg` | 2798 KB | 297 KB | 2501 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-11.59.55-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-11.59.55-AM.opt.jpg` | 2748 KB | 312 KB | 2436 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.50.01-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.50.01-PM.opt.jpg` | 2586 KB | 231 KB | 2354 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.29.17-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.29.17-PM.opt.jpg` | 2665 KB | 323 KB | 2342 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.51.28-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.51.28-PM.opt.jpg` | 2611 KB | 286 KB | 2325 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.26-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.22.26-PM.opt.jpg` | 2569 KB | 260 KB | 2309 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.35.05-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.35.05-PM.opt.jpg` | 2462 KB | 238 KB | 2225 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-04-at-5.37.43-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-04-at-5.37.43-PM.opt.jpg` | 2451 KB | 233 KB | 2218 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.47.39-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.47.39-PM.opt.jpg` | 2515 KB | 314 KB | 2201 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.01.27-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.01.27-PM.opt.jpg` | 2402 KB | 205 KB | 2197 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.00.00-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.00.00-PM.opt.jpg` | 2411 KB | 241 KB | 2170 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.30.45-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.30.45-PM.opt.jpg` | 2386 KB | 247 KB | 2139 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.17.02-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.17.02-PM.opt.jpg` | 2522 KB | 390 KB | 2132 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.11.20-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.11.20-PM.opt.jpg` | 2257 KB | 208 KB | 2049 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.34.47-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.34.47-PM.opt.jpg` | 2388 KB | 341 KB | 2047 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.20.19-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.20.19-PM.opt.jpg` | 2361 KB | 315 KB | 2046 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.15-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.15-PM.opt.jpg` | 2266 KB | 255 KB | 2011 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.11.33-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.11.33-PM.opt.jpg` | 2196 KB | 224 KB | 1971 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.11.28-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.11.28-PM.opt.jpg` | 2158 KB | 224 KB | 1934 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.00.07-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.00.07-PM.opt.jpg` | 2106 KB | 205 KB | 1901 KB |
+| `wp-content/uploads/2021/12/Screen-Shot-2021-12-21-at-5.41.39-PM.png` | `wp-content/uploads/2021/12/Screen-Shot-2021-12-21-at-5.41.39-PM.opt.jpg` | 2085 KB | 195 KB | 1890 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.47.50-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.47.50-PM.opt.jpg` | 2079 KB | 266 KB | 1813 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.18-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.18-AM.opt.jpg` | 2009 KB | 201 KB | 1807 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.58-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.58-PM.opt.jpg` | 2040 KB | 237 KB | 1803 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.06.54-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.06.54-PM.opt.jpg` | 1931 KB | 158 KB | 1773 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.28-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.28-PM.opt.jpg` | 1960 KB | 193 KB | 1767 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.33.47-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.33.47-PM.opt.jpg` | 1966 KB | 212 KB | 1755 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.48.01-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.48.01-PM.opt.jpg` | 1912 KB | 200 KB | 1712 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.09-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.09-AM.opt.jpg` | 1851 KB | 173 KB | 1678 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.23-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.23-PM.opt.jpg` | 1837 KB | 224 KB | 1612 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.44-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.44-AM.opt.jpg` | 1850 KB | 238 KB | 1611 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-11.59.48-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-11.59.48-AM.opt.jpg` | 1778 KB | 189 KB | 1589 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.37-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.37-AM.opt.jpg` | 1745 KB | 163 KB | 1582 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.10.31-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.10.31-PM.opt.jpg` | 1700 KB | 159 KB | 1541 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.32-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.32-PM.opt.jpg` | 1625 KB | 144 KB | 1481 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.17-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.17-PM.opt.jpg` | 1673 KB | 200 KB | 1473 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.11-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.08.11-PM.opt.jpg` | 1640 KB | 173 KB | 1467 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.20.08-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.20.08-PM.opt.jpg` | 1639 KB | 187 KB | 1451 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.25-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.25-AM.opt.jpg` | 1559 KB | 134 KB | 1425 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.16-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.16-AM.opt.jpg` | 1536 KB | 122 KB | 1413 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.39-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.39-PM.opt.jpg` | 1557 KB | 167 KB | 1389 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.01.36-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.01.36-PM.opt.jpg` | 1499 KB | 112 KB | 1387 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.23-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.19.23-AM.opt.jpg` | 1500 KB | 129 KB | 1371 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.47-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.47-PM.opt.jpg` | 1522 KB | 159 KB | 1363 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.10.56-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-4.10.56-PM.opt.jpg` | 1491 KB | 163 KB | 1328 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.18-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.23.18-PM.opt.jpg` | 1441 KB | 136 KB | 1305 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.15-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.15-PM.opt.jpg` | 1410 KB | 132 KB | 1278 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.10.09-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.10.09-PM.opt.jpg` | 1361 KB | 114 KB | 1247 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.24-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.24-PM.opt.jpg` | 1338 KB | 119 KB | 1219 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.52.03-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.52.03-PM.opt.jpg` | 1380 KB | 162 KB | 1218 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.51.57-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-12.51.57-PM.opt.jpg` | 1237 KB | 114 KB | 1123 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-04-at-5.40.39-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-04-at-5.40.39-PM.opt.jpg` | 1225 KB | 115 KB | 1110 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.25-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.25-AM.opt.jpg` | 1182 KB | 102 KB | 1080 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.21-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.21-AM.opt.jpg` | 1168 KB | 101 KB | 1067 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.00.24-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.00.24-PM.opt.jpg` | 1196 KB | 136 KB | 1060 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.49.33-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-5.49.33-PM.opt.jpg` | 1157 KB | 101 KB | 1056 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.05-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.05-AM.opt.jpg` | 1135 KB | 101 KB | 1034 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.23.06-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.23.06-PM.opt.jpg` | 1118 KB | 142 KB | 975 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.23.13-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-08-at-7.23.13-PM.opt.jpg` | 1081 KB | 112 KB | 969 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.28-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.21.28-AM.opt.jpg` | 1060 KB | 99 KB | 961 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.53-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.53-AM.opt.jpg` | 984 KB | 91 KB | 893 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.47-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.09.47-PM.opt.jpg` | 982 KB | 89 KB | 893 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.06.39-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-12.06.39-PM.opt.jpg` | 970 KB | 95 KB | 875 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.40-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.40-AM.opt.jpg` | 860 KB | 83 KB | 778 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-3.13.57-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-09-at-3.13.57-PM.opt.jpg` | 867 KB | 98 KB | 769 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.03-AM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-8.20.03-AM.opt.jpg` | 685 KB | 63 KB | 622 KB |
+| `wp-content/uploads/2021/11/Screen-Shot-2021-11-04-at-5.40.32-PM.png` | `wp-content/uploads/2021/11/Screen-Shot-2021-11-04-at-5.40.32-PM.opt.jpg` | 647 KB | 68 KB | 578 KB |
+| `wp-content/uploads/2021/11/E2B9FBD1-F57F-43D5-B8A2-CBA9D816C9F5.jpg` | `wp-content/uploads/2021/11/E2B9FBD1-F57F-43D5-B8A2-CBA9D816C9F5.opt.jpg` | 748 KB | 415 KB | 333 KB |
+| `wp-content/uploads/2021/11/D8B67CA8-AE73-4A6F-BDBA-F5AB66BE1DA3.jpg` | `wp-content/uploads/2021/11/D8B67CA8-AE73-4A6F-BDBA-F5AB66BE1DA3.opt.jpg` | 540 KB | 383 KB | 157 KB |
+| `wp-content/uploads/2023/03/DJI_0408-scaled.jpg` | `wp-content/uploads/2023/03/DJI_0408-scaled.opt.jpg` | 758 KB | 719 KB | 39 KB |
+| `wp-content/uploads/2023/03/DJI_0411-scaled.jpg` | `wp-content/uploads/2023/03/DJI_0411-scaled.opt.jpg` | 618 KB | 585 KB | 33 KB |
+
+**Total savings if all originals are deleted: 143.54 MB**
